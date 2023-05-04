@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vKfx0GyIjCQKiBugXeS1MhlFEs2C9SDIhFO4WfdpY63FNgLohUhmom1TnjWzhOeOtCa+tIM0RkGM+rTUhvUG0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asingh\\source\\repos\\as858291\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://teamcity.barfoot.co.nz/guestAuth/app/nuget/feed/_Root/default/v2'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

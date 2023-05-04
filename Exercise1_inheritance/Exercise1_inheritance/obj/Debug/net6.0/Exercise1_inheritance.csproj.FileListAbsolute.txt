@@ -1,0 +1,15 @@
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\bin\Debug\net6.0\Exercise1_inheritance.exe
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\bin\Debug\net6.0\Exercise1_inheritance.deps.json
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\bin\Debug\net6.0\Exercise1_inheritance.runtimeconfig.json
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\bin\Debug\net6.0\Exercise1_inheritance.dll
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\bin\Debug\net6.0\Exercise1_inheritance.pdb
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.csproj.AssemblyReference.cache
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.AssemblyInfoInputs.cache
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.AssemblyInfo.cs
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.csproj.CoreCompileInputs.cache
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.dll
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\refint\Exercise1_inheritance.dll
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.pdb
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\Exercise1_inheritance.genruntimeconfig.cache
+C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_inheritance\obj\Debug\net6.0\ref\Exercise1_inheritance.dll
