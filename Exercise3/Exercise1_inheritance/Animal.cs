@@ -14,7 +14,7 @@ namespace Exercise3
         public string Sound { get; set; }
         public int leg { get; set; }
 
-        public List<string> animalList = new List<string>();
+        public List<string?> animalList = new List<string?>();
 
 
         public virtual string Speak()

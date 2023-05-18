@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Exercise3;
-using SomeLegacyLibrary;
+﻿using SomeLegacyLibrary;
 
-namespace Exercise3Test
+namespace Exercise3
 {
     public class AnimalAdaptor : Animal
     {
         private Pikachoo _pikachoo;
+      //  private IPokemon _pokemnon;
 
         public AnimalAdaptor(Pikachoo pikachoo)
         {
             _pikachoo = pikachoo;
             AnimalName = pikachoo.Name;
+           // _pokemnon = pokemnon;
         }
 
         
@@ -25,6 +20,6 @@ namespace Exercise3Test
             return _pikachoo.LegacySpeakMethod();
         }
 
-
+        
     }
 }

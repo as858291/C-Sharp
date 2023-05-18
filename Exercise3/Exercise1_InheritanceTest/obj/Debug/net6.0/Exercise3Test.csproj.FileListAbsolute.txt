@@ -1,9 +1,4 @@
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin\Debug\net6.0\CoverletSourceRootsMapping
-C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.csproj.AssemblyReference.cache
-C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.AssemblyInfoInputs.cache
-C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.AssemblyInfo.cs
-C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.csproj.CoreCompileInputs.cache
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin\Debug\net6.0\testhost.dll
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin\Debug\net6.0\Exercise3.deps.json
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin\Debug\net6.0\Exercise3.runtimeconfig.json
@@ -102,6 +97,11 @@ C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin\Debug\net6.0\SomeLegacyLibrary.dll
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin\Debug\net6.0\Exercise3.pdb
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\bin\Debug\net6.0\SomeLegacyLibrary.pdb
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.csproj.AssemblyReference.cache
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.AssemblyInfoInputs.cache
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.AssemblyInfo.cs
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.csproj.CoreCompileInputs.cache
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.csproj.CopyComplete
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\Exercise3Test.dll
 C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\Exercise1_InheritanceTest\obj\Debug\net6.0\refint\Exercise3Test.dll
