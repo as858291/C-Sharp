@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SomeLegacyLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SomeLegacyLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj",
+      "msbuildProject": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SomeLegacyLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\asingh\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj",
-      "projectName": "Exercise1_inheritance",
-      "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj",
+      "projectUniqueName": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise3.csproj",
+      "projectName": "Exercise3",
+      "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise3.csproj",
       "packagesPath": "C:\\Users\\asingh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\obj\\",
+      "outputPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj": {
+              "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

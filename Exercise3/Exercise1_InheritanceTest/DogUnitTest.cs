@@ -1,6 +1,6 @@
-using Exercise1_inheritance;
+using Exercise3;
 
-namespace Exercise1_InheritanceTest
+namespace Exercise3Test
 {
     public class DogTests
     {
@@ -11,7 +11,8 @@ namespace Exercise1_InheritanceTest
         public void VerifySpeakMethod()
         {
             Dog dog = new Dog("Max");
-            dog.Speak(dog.AnimalName,dog.Sound);
+            string dogSound=dog.Speak();
+            Console.WriteLine(dogSound);
             Assert.That(dog.Sound, Is.EqualTo("Woof Woof"));
         }
 
@@ -22,7 +23,7 @@ namespace Exercise1_InheritanceTest
             Dog dog = new Dog("Shera");
 
             var dogBarkingReason = dog.DogBarkingReason("Frustration-Induced Barking");
-            Assert.That(dogBarkingReason, Is.EqualTo("Doeg is hungry"));
+            Assert.That(dogBarkingReason, Is.EqualTo("Dog is hungry"));
         }
 
     }

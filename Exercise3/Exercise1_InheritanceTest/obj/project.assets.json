@@ -974,14 +974,27 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Exercise1_inheritance/1.0.0": {
+      "Exercise3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SomeLegacyLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Exercise3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exercise3.dll": {}
+        }
+      },
+      "SomeLegacyLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Exercise1_inheritance.dll": {}
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Exercise1_inheritance.dll": {}
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
         }
       }
     }
@@ -3963,19 +3976,25 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Exercise1_inheritance/1.0.0": {
+    "Exercise3/1.0.0": {
       "type": "project",
-      "path": "../Exercise1_inheritance/Exercise1_inheritance.csproj",
-      "msbuildProject": "../Exercise1_inheritance/Exercise1_inheritance.csproj"
+      "path": "../Exercise1_inheritance/Exercise3.csproj",
+      "msbuildProject": "../Exercise1_inheritance/Exercise3.csproj"
+    },
+    "SomeLegacyLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj",
+      "msbuildProject": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Exercise1_inheritance >= 1.0.0",
+      "Exercise3 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "SomeLegacyLibrary >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -3985,11 +4004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_InheritanceTest\\Exercise1_InheritanceTest.csproj",
-      "projectName": "Exercise1_InheritanceTest",
-      "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_InheritanceTest\\Exercise1_InheritanceTest.csproj",
+      "projectUniqueName": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_InheritanceTest\\Exercise3Test.csproj",
+      "projectName": "Exercise3Test",
+      "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_InheritanceTest\\Exercise3Test.csproj",
       "packagesPath": "C:\\Users\\asingh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_InheritanceTest\\obj\\",
+      "outputPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_InheritanceTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4006,8 +4025,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj": {
-              "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj"
+            "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise3.csproj": {
+              "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise3.csproj"
+            },
+            "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj": {
+              "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj"
             }
           }
         }

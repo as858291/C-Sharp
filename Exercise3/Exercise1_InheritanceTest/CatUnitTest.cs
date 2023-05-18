@@ -1,6 +1,6 @@
-using Exercise1_inheritance;
+using Exercise3;
 
-namespace Exercise1_InheritanceTest
+namespace Exercise3Test
 {
     public class CatTests
     {
@@ -11,7 +11,8 @@ namespace Exercise1_InheritanceTest
         public void VerifySpeakMethod()
         {
             Cat cat = new Cat("Ivana");
-            cat.Speak(cat.AnimalName,cat.Sound);
+            var catSound=cat.Speak();
+            Console.WriteLine(catSound);
             Assert.That(cat.Sound, Is.EqualTo("Meow Meow"));
         }
 
@@ -20,7 +21,6 @@ namespace Exercise1_InheritanceTest
         public void VerifyCatSoundInterpretation()
         {
             Cat cat = new Cat("molly");
-            cat.Speak(cat.AnimalName, cat.Sound);
            var catInterpretation = cat.MeowInterpretation("soundless meow");
             Assert.That(catInterpretation, Is.EqualTo("I’m hungry and/or thirsty."));
         }

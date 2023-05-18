@@ -1,0 +1,15 @@
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\bin\Debug\net6.0\SomeLegacyLibrary.exe
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\bin\Debug\net6.0\SomeLegacyLibrary.deps.json
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\bin\Debug\net6.0\SomeLegacyLibrary.runtimeconfig.json
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\bin\Debug\net6.0\SomeLegacyLibrary.dll
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\bin\Debug\net6.0\SomeLegacyLibrary.pdb
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.csproj.AssemblyReference.cache
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.AssemblyInfoInputs.cache
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.AssemblyInfo.cs
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.csproj.CoreCompileInputs.cache
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.dll
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\refint\SomeLegacyLibrary.dll
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.pdb
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\SomeLegacyLibrary.genruntimeconfig.cache
+C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise3\SomeLegacyLibrary\obj\Debug\net6.0\ref\SomeLegacyLibrary.dll
