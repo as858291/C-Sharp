@@ -1,4 +1,6 @@
-﻿namespace Exercise1_inheritance
+﻿using Exercise3;
+
+namespace Exercise3
 {
     public class Dog: Animal
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise1_inheritance
+namespace Exercise3
 {
     public class Animal
     {
@@ -17,9 +17,9 @@ namespace Exercise1_inheritance
         public List<string> animalList = new List<string>();
 
 
-        public void Speak(string animalName, string sound)
+        public virtual string Speak()
         {
-            Console.WriteLine($"{animalName} sound {sound}");
+            return $"{AnimalName} sound {Sound}";
         }
 
       

@@ -1,6 +1,7 @@
-using Exercise1_inheritance;
 
-namespace Exercise1_InheritanceTest
+using Exercise3;
+
+namespace Exercise3Test
 {
     public class AnimalManagerTests
     {

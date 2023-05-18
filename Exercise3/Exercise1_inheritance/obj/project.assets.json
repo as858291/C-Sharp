@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SomeLegacyLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SomeLegacyLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj",
+      "msbuildProject": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SomeLegacyLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\asingh\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj": {
+              "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -977,11 +977,24 @@
       "Exercise3/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SomeLegacyLibrary": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Exercise3.dll": {}
         },
         "runtime": {
           "bin/placeholder/Exercise3.dll": {}
+        }
+      },
+      "SomeLegacyLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SomeLegacyLibrary.dll": {}
         }
       }
     }
@@ -3967,6 +3980,11 @@
       "type": "project",
       "path": "../Exercise1_inheritance/Exercise3.csproj",
       "msbuildProject": "../Exercise1_inheritance/Exercise3.csproj"
+    },
+    "SomeLegacyLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj",
+      "msbuildProject": "../SomeLegacyLibrary/SomeLegacyLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3976,6 +3994,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "SomeLegacyLibrary >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -4008,6 +4027,9 @@
           "projectReferences": {
             "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise3.csproj": {
               "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise3.csproj"
+            },
+            "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj": {
+              "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\SomeLegacyLibrary\\SomeLegacyLibrary.csproj"
             }
           }
         }

@@ -1,12 +1,14 @@
-﻿namespace Exercise1_inheritance
-{
-    internal class Program
+﻿using Exercise3;
+using Exercise3Test;
+using SomeLegacyLibrary;
+
+internal class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
             Dog dog = new Dog("Rocky");
-            dog.Speak(dog.AnimalName, dog.Sound);
+            dog.Speak();
 
 
             AnimalManager am = new AnimalManager();
@@ -25,6 +27,14 @@
             string removeanimal = Console.ReadLine();
             am.RemoveAnimal(removeanimal);
             am.DisplayAnimal();
-        }
+
+            Pikachoo pikachoo = new Pikachoo("Kristy");
+            string pikachoospeak=pikachoo.LegacySpeakMethod();
+            Console.WriteLine(pikachoospeak);
+
+
+            AnimalAdaptor pikachoo1 = new AnimalAdaptor(pikachoo);
+            var pikachoospeak1 = pikachoo1.Speak();
+            Console.WriteLine(pikachoospeak1);
     }
-}
+    }
