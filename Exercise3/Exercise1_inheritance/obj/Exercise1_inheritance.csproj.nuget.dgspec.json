@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj": {}
+    "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise1_inheritance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj": {
+    "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise1_inheritance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj",
+        "projectUniqueName": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise1_inheritance.csproj",
         "projectName": "Exercise1_inheritance",
-        "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\Exercise1_inheritance.csproj",
+        "projectPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\Exercise1_inheritance.csproj",
         "packagesPath": "C:\\Users\\asingh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise1_inheritance\\Exercise1_inheritance\\obj\\",
+        "outputPath": "C:\\Users\\asingh\\Documents\\GitHub\\C-Sharp\\Exercise3\\Exercise1_inheritance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asingh\\AppData\\Roaming\\NuGet\\NuGet.Config",

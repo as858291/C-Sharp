@@ -22,7 +22,7 @@ namespace Exercise1_InheritanceTest
             Dog dog = new Dog("Shera");
 
             var dogBarkingReason = dog.DogBarkingReason("Frustration-Induced Barking");
-            Assert.That(dogBarkingReason, Is.EqualTo("Doeg is hungry"));
+            Assert.That(dogBarkingReason, Is.EqualTo("Dog is hungry"));
         }
 
     }

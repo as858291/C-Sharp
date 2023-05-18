@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Exercise1_inheritance\Exercise1_inheritance.csproj" />
+    <ProjectReference Include="..\Exercise1_inheritance\Exercise3.csproj" />
   </ItemGroup>
 
 </Project>
