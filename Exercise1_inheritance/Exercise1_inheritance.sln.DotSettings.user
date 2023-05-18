@@ -1,33 +1,4 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cb6938f2_002Dc9c0_002D4997_002Da303_002D5e0ae3b1cb40/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;And&gt;&#xD;
-      &lt;TestAncestor&gt;&#xD;
-        &lt;TestId&gt;NUnit3x::50F1604E-DA26-4A35-A338-EC3AFA439FE6::net6.0::Exercise1_InheritanceTest.Tests&lt;/TestId&gt;&#xD;
-      &lt;/TestAncestor&gt;&#xD;
-      &lt;Project Location="C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_InheritanceTest" Presentation="&amp;lt;Exercise1_InheritanceTest&amp;gt;" /&gt;&#xD;
-      &lt;Namespace&gt;Exercise1_InheritanceTest&lt;/Namespace&gt;&#xD;
-    &lt;/And&gt;&#xD;
-    &lt;And&gt;&#xD;
-      &lt;TestAncestor&gt;&#xD;
-        &lt;TestId&gt;NUnit3x::50F1604E-DA26-4A35-A338-EC3AFA439FE6::net6.0::Exercise1_InheritanceTest.AnimalManagerTests.AddAnimal&lt;/TestId&gt;&#xD;
-      &lt;/TestAncestor&gt;&#xD;
-      &lt;Project Location="C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_InheritanceTest" Presentation="&amp;lt;Exercise1_InheritanceTest&amp;gt;" /&gt;&#xD;
-      &lt;Namespace&gt;Exercise1_InheritanceTest&lt;/Namespace&gt;&#xD;
-    &lt;/And&gt;&#xD;
-    &lt;And&gt;&#xD;
-      &lt;TestAncestor&gt;&#xD;
-        &lt;TestId&gt;NUnit3x::50F1604E-DA26-4A35-A338-EC3AFA439FE6::net6.0::Exercise1_InheritanceTest.AnimalManagerTests&lt;/TestId&gt;&#xD;
-      &lt;/TestAncestor&gt;&#xD;
-      &lt;Project Location="C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_InheritanceTest" Presentation="&amp;lt;Exercise1_InheritanceTest&amp;gt;" /&gt;&#xD;
-      &lt;Namespace&gt;Exercise1_InheritanceTest&lt;/Namespace&gt;&#xD;
-    &lt;/And&gt;&#xD;
-    &lt;And&gt;&#xD;
-      &lt;TestAncestor&gt;&#xD;
-        &lt;TestId&gt;NUnit3x::50F1604E-DA26-4A35-A338-EC3AFA439FE6::net6.0::Exercise1_InheritanceTest.DogTests&lt;/TestId&gt;&#xD;
-      &lt;/TestAncestor&gt;&#xD;
-      &lt;Project Location="C:\Users\asingh\source\repos\as858291\C-Sharp\Exercise1_inheritance\Exercise1_InheritanceTest" Presentation="&amp;lt;Exercise1_InheritanceTest&amp;gt;" /&gt;&#xD;
-      &lt;Namespace&gt;Exercise1_InheritanceTest&lt;/Namespace&gt;&#xD;
-    &lt;/And&gt;&#xD;
-  &lt;/Or&gt;&#xD;
+  &lt;Project Location="C:\Users\asingh\Documents\GitHub\C-Sharp\Exercise1_inheritance\Exercise1_InheritanceTest" Presentation="&amp;lt;Exercise1_InheritanceTest&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
