@@ -1,6 +1,6 @@
 ﻿namespace Exercise1_inheritance
 {
-    internal class Dog: Animal
+    public class Dog: Animal
     {
         public Dog(string name)
         {
@@ -8,15 +8,30 @@
             Sound = "Woof Woof";
         }
 
-        public void DogBarkingReason()
+        public string DogBarkingReason(string dogAction)
         {
-            List<string> barkingReasonList = new List<string> { "greeting barking", "Frustration-Induced Barking" };
+          //  List<string> barkingReasonList = new List<string> { "greeting barking", "Frustration-Induced Barking" };
 
-            foreach (var variable in barkingReasonList)
+           
+            var reason = "";
+            switch (dogAction)
             {
-                Console.WriteLine(variable);
+                case "greeting barking":
+
+                   return reason = "Welcoming the owner";
+
+
+                case "Frustration-Induced Barking":
+
+                    return reason = "Dog is hungry";
+
+                default:
+                    Console.WriteLine("Reason unknown");
+                    return null;
+                    break;
 
             }
+            
 
 
         }

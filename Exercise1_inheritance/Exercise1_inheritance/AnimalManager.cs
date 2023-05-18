@@ -1,6 +1,6 @@
 ﻿namespace Exercise1_inheritance
 {
-    internal class AnimalManager:Animal
+    public class AnimalManager:Animal
     {
         public void AddAnimal(string name)
         {
@@ -17,7 +17,12 @@
 
         public void RemoveAnimal(string name)
         {
-            animalList.Remove(name);
+            if (!animalList.Contains(name))
+                Console.WriteLine($"{name} Doesn't exist in the zoo");
+
+            else
+              animalList.Remove(name);
+
         }
     }
 }

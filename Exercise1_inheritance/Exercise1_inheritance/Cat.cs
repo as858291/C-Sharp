@@ -1,6 +1,6 @@
 ﻿namespace Exercise1_inheritance
 {
-    internal class Cat :Animal
+    public class Cat :Animal
     {
 
 
