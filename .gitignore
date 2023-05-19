@@ -257,3 +257,6 @@ DB/MyDesktopRes/CopyMasterDbFromProduction.ps1
 # danielpalme/ReportGenerator output
 **/coveragereport/*
 
+*.dll
+*.pdb
+*.cache
