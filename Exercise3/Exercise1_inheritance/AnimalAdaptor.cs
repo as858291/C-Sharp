@@ -4,20 +4,20 @@ namespace Exercise3
 {
     public class AnimalAdaptor : Animal
     {
-        private Pikachoo _pikachoo;
-      //  private IPokemon _pokemnon;
+      //  private Pikachoo _pikachoo;
+       private IPokemon _pokemon;
 
-        public AnimalAdaptor(Pikachoo pikachoo)
+        public AnimalAdaptor(IPokemon pokemon)
         {
-            _pikachoo = pikachoo;
-            AnimalName = pikachoo.Name;
-           // _pokemnon = pokemnon;
+           // _pikachoo = pikachoo;
+           AnimalName = pokemon.Name;
+         _pokemon = pokemon;
         }
 
         
         public override string Speak()
         {
-            return _pikachoo.LegacySpeakMethod();
+            return _pokemon.LegacySpeakMethod();
         }
 
         
