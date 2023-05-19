@@ -6,18 +6,14 @@ using System.Threading.Tasks;
 
 namespace SomeLegacyLibrary
 {
-    public class IPokemon
+   public interface IPokemon
     {
 
-        public string Name { get; set; }
-        public string Color { get; set; }
-        public int Age { get; set; }
-        public string Type { get; set; }
-
-        public string LegacySpeakMethod()
-        {
-            return $"{Name} says Kue-Kue!";
-        }
+        string Name { get; set; }
+        string? LegacySpeakMethod()
+      {
+          return null;
+      }
 
 
     }

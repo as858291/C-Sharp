@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace SomeLegacyLibrary
 {
-    public class Pikachoo:IPokemon
+    public class Eevee :IPokemon
     {
-
-        public Pikachoo(string name)
+        public Eevee(string name)
         {
             Name = name;
-            
         }
 
         public string Name { get; set; }
@@ -22,9 +20,9 @@ namespace SomeLegacyLibrary
 
         public string LegacySpeakMethod()
         {
-            return $"{Name} says Pika-choo!";
+            return $"{Name} says Eh-Veh,Eh-Vay Eh-Voi!";
         }
 
-      
+
     }
 }
