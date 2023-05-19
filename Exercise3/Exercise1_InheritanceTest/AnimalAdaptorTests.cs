@@ -18,7 +18,7 @@ namespace Exercise3Test
 
             // Act
             var result = animalAdaptor.Speak();
-      
+            Console.WriteLine(result);
 
             // Assert
             Assert.AreEqual(result, $"{animalAdaptor.AnimalName} says Pika-choo!");
