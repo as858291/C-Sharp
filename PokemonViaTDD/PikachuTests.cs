@@ -21,7 +21,7 @@ namespace PokemonViaTDD
         }
 
         [TestMethod]
-        public void VerifyWhnePikachuIsSetLevel1()
+        public void VerifyWhnePikachuCannotchangeLevel()
         {
             // Arrange
             var pikachu = new Pikachu();
@@ -33,6 +33,27 @@ namespace PokemonViaTDD
             // Assert
             Assert.AreEqual(actualLevel, expectedLevel, "Doenot match");
             
+        }
+
+
+        [TestMethod]
+        public void VerifyPikachuCanCahngeLevelGainigExp()
+        {
+            // Arrange
+            var pikachu = new Pikachu();
+            var expPoint = 20;
+            var expectedlevel = 2;
+            int actualLevel=pikachu._level;
+            // Act
+            if (expPoint == 20)
+            {
+                 actualLevel = pikachu.LevelUp();
+            }
+            
+
+            // Assert
+            Assert.AreEqual(actualLevel, expectedlevel, "Doesnot match");
+
         }
     }
 }
